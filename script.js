@@ -111,13 +111,13 @@ function iniciarSorteioAutomatico() {
         return;
     }
 
-    interval = setInterval(sortearNumeroAutomatico, 500);
+    interval = setInterval(sortearNumeroAutomatico, 100);
 }
 
 function sortearNumeroAutomatico() {
     if (numerosSorteados.length === 75 || vencedorEncontrado) {
         clearInterval(interval);
-        alert('Parabéns pela vitória!');
+        alert('Pelo menos uma cartela foi completa, veja quem foi o vencedor!');
         return;
     }
 
