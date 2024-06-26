@@ -1,3 +1,5 @@
 # Bingo
 
-Caso queira acessar o site para jogar: https://renancmanera.github.io/bingo/
+Projeto final do primeiro semestre.
+
+https://renancmanera.github.io/bingo/
